@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>HTML Demo</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background-image: url('WhatsApp Image 2024-06-28 at 10.39.14_c00cbb88.jpg'); /* Use your local file */
+      background-size: cover; /* Ensure the image covers the entire background */
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Makes sure the background image stays fixed when scrolling */
+      background-position: center; /* Center the background image */
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      color: darkred;
+    }
+
+    p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+    }
+
+    div {
+      background-color: rgba(173, 255, 47, 0.8); /* Yellowgreen with some transparency */
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      color: black;
+      border-radius: 10px;
+    }
+
+    button {
+      background-color: darkred;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: red;
+    }
+
+    footer {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    Osho's special message for Chidinma
+  </h1>
+  <hr>
+  <p>
+    Chidinma, I know we have had our differences, but I want us to work things out and move forward together.
+  </p>
+  <div>
+    Here's something special for you.<br>
+    Click the button below to see my heartfelt message.
+  </div><br>
+  <button onclick="showMessage()">
+    Show Message
+  </button>
+  <hr>
+  <footer>
+  
+  </footer>
+
+  <script>
+    function showtime() {
+      var now = new Date();
+      alert(now);
+    }
+
+    function showMessage() {
+      alert("Chidinma, I love you and I want us to resolve our differences. Let's work things out together. ❤️");
+    }
+  </script>
+</body>
+
+</html>
